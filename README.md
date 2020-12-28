@@ -1,2 +1,2 @@
-# microkeylogger
+# µKeylogger
 A tiny disposable keylogger 

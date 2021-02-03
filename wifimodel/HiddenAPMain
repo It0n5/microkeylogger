@@ -1,0 +1,12 @@
+import network
+​
+​
+print("Hello World!")
+​
+nicap = network.WLAN(network.AP_IF)
+nicap.active(True)
+​
+print("Connecting...")
+​
+nicap.config(essid='Newnet', channel=11, hidden=True, authmode=3, password="212468788")
+​
